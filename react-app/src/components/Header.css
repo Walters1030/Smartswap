@@ -1,0 +1,290 @@
+.header {}
+
+.header-container {
+    background: linear-gradient(45deg ,#3572EF,#5AB2FF,#A0DEFF,#CAF4FF,#A0DEFF,#5AB2FF,#3572EF) ;
+    animation: bganimated 15s infinite linear;
+    background-size: 600% 600%; 
+    padding: 10px 20px;
+    background-color: #002f3408;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+@keyframes bganimated{
+    0%{
+        background-position: 0 85%;
+    }
+    50%{
+        background-position: 100% 20%;
+    }
+    100%{
+        background-position: 0 85%;
+    }
+}
+
+
+.cat-container {
+   
+    box-shadow: 0 5px 4px 0 rgba(90, 178, 255, 0.386);
+    padding: 8px 20px;
+
+}
+
+.mt-3 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.search {
+    height: 44px;
+    padding: 5px 10px;
+    border: 1px solid #002f34;
+    border-radius: 5px 0 0 5px;
+    width: 400px;
+    margin: 0; 
+}
+
+.search-btn {
+    height: 44px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin: 0; 
+}
+
+
+
+.logout-btn {
+    height: 35px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 1px 16px;
+    margin-right: 10px;
+}
+
+.category {
+    color: rgb(5, 12, 156);
+    padding: 7px;
+    cursor: pointer;
+}
+
+
+.login {
+    height: 500px;
+    font-size: 18px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 1px 16px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+
+.header-container {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.website-name {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.links {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    color: #002f34;
+}
+
+.department-select {
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #002f34;
+    border-radius: 5px;
+    
+}
+
+
+.user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #002f34;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    min-height: 60px;
+    width: 200px;
+    background: #eee;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 1;
+    color: red;
+    font-size: 14px;
+    background: #002f34;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logout-btn {
+    margin: 5px 0;
+    width: 100%;
+    background: #002f34;
+    border: 1px solid #002f34;
+    color: #f8f8f8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background: #068e18;
+    color: #fff;
+}
+
+
+ .login:hover {
+    text-decoration: underline;
+    
+}
+
+/* 
+
+.header-container {
+    background: linear-gradient(45deg ,#3572EF,#5AB2FF,#A0DEFF,#CAF4FF,#A0DEFF,#5AB2FF,#3572EF);
+    animation: bganimated 15s infinite linear;
+    background-size: 600% 600%; 
+    padding: 10px 20px;
+    background-color: #002f3408;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+@keyframes bganimated {
+    0% { background-position: 0 85%; }
+    50% { background-position: 100% 20%; }
+    100% { background-position: 0 85%; }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.website-name {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.links {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #002f34;
+}
+
+.department-select {
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #002f34;
+    border-radius: 5px;
+}
+
+.search {
+    height: 44px;
+    padding: 5px 10px;
+    border: 1px solid #002f34;
+    border-radius: 5px 0 0 5px;
+    width: 400px;
+    margin: 0; /* Ensure there is no margin */
+/* }
+
+.search-btn {
+    height: 44px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin: 0; Ensure there is no margin
+}
+
+/* .user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #002f34;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+/* 
+.dropdown-menu {
+    min-height: 60px;
+    width: 200px;
+    background: #eee;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 1;
+    color: red;
+    font-size: 14px;
+    background: #002f34;
+    border-radius: 7px;
+    padding: 10px;
+} */
+
+/* .logout-btn {
+    margin: 5px 0;
+    width: 100%;
+    background: #002f34;
+    border: 1px solid #002f34;
+    color: #f8f8f8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background: #068e18;
+    color: #fff;
+}
+
+.login {
+    display: block;
+    margin: 5px 0;
+    color: #002f34;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login:hover {
+    text-decoration: underline;
+} */ 

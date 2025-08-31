@@ -1,0 +1,86 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-image {
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.details-section {
+    position: sticky;
+    top: 0;
+    margin-left: 20px;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.price-text {
+    margin-top: 2px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+h1, h4, h5, h3 {
+    margin-left: 2px;
+}
+
+.inline-info {
+    display: flex;
+    align-items: center;
+}
+
+.inline-info h4, h3, h5:first-child {
+    margin-right: 10px;
+}
+
+.col {
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 1px 16px;
+    margin-right: 10px;
+    height: 35px;
+}
+
+.col:hover {
+    background: #068e18;
+    color: #fff;
+}
+
+.link {
+    color: black; /* Change the text color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+.link:hover {
+    text-decoration: underline; /* Optional: add underline on hover for better UX */
+}
